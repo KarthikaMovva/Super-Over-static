@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+.logo{
+    position: absolute;
+    top: 30px;
+   left: 670px;
+   height: 60px;
+}
+.ind{
+    height: 300px;
+    width: 450px;
+    border: 1px solid rgb(80, 80, 249);
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    background-color: rgb(80, 80, 249);
+    border-radius: 20px;
+}
+.group1{
+    color: white;
+    margin-left: 180px;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.digit{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    margin-right: 20px;
+    background-color: white;
+    border-radius: 30px;
+}
+#score{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+.scrdiv{
+    color: white;
+    margin-top: 30px;
+    margin-left: 200px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.pak{
+    height: 300px;
+    width: 450px;
+    background-color: rgb(24, 147, 24);
+    border: 1px solid rgb(24, 147, 24);
+    border-radius: 20px;
+    position: absolute;
+    top: 200px;
+    left: 800px;
+}
+.group2{
+    color: white;
+    margin-left: 180px;
+    font-size: 50px;
+    margin-top: 30px;
+    font-weight: 700;
+}
+.row{
+    display: flex;
+    position: absolute;
+    top: 540px;
+    left: 570px;
+}
+button{
+    margin-right: 100px;
+    border-radius: 20px;
+}
