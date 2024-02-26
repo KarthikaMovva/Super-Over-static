@@ -13,7 +13,7 @@
     </div>
     <div class="ind">
         <p class="group1">IND</p>
-        <div id="score">
+        <div id="team1-superover">
             <div class="digit"></div>
             <div class="digit"></div>
             <div class="digit"></div>
@@ -21,11 +21,15 @@
             <div class="digit"></div>
             <div class="digit"></div>
         </div>
-        <p class="scrdiv">0/0</p>
+        <div class="scrdiv">
+            <span id="score-team1">0</span>
+            <span>/</span>
+            <span id="wickets-team1">0</span>
+        </div>
     </div>
     <div class="pak">
         <p class="group2">PAK</p>
-        <div id="score">
+        <div id="team2-superover">
             <div class="digit"></div>
             <div class="digit"></div>
             <div class="digit"></div>
@@ -33,11 +37,16 @@
             <div class="digit"></div>
             <div class="digit"></div>
         </div>
-        <p class="scrdiv">0/0</p>
+        <div class="scrdiv">
+         <span id="score-team2">0</span>
+         <span>/</span>
+         <span id="wickets-team2">0</span>
+        </div>
     </div>
     <div class="row">
-        <button><img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png" alt="" height="90px" width="90px"></button>
-        <button><img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png" alt="" height="90px" width="90px"></button>
+        <button><img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-strike-button.png" alt="" height="90px" width="90px" id="strike"></button>
+        <button><img src="https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/so-reset-button.png" alt="" height="90px" width="90px" id="reset"></button>
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>
