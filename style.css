@@ -36,7 +36,7 @@
     font-weight: 700;
     font-size: 30px;
 }
-#team1-superover,#team2-superover{
+#team1balls,#team2balls{
     display: flex;
     margin-top: 60px;
     margin-left: 60px;

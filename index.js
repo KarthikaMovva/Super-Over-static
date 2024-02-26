@@ -1,11 +1,11 @@
-const team1=document.getElementById("team1-superover");
-const team2=document.getElementById("team2-superover");
-const replay=document.getElementById("reset");
-const team1wickets=document.getElementById("wickets-team1");
-const team2wickets=document.getElementById("wickets-team2");
-const scoreboard1=document.getElementById("score-team1");
-const scoreboard2=document.getElementById("score-team2");
-const kick=document.getElementById("strike");
+const team1=document.getElementById("team1balls");
+const team2=document.getElementById("team2balls");
+const replay=document.getElementById("replay");
+const team1wickets=document.getElementById("team1out");
+const team2wickets=document.getElementById("team2out");
+const scoreboard1=document.getElementById("totalscoreteam1");
+const scoreboard2=document.getElementById("totalscoreteam2");
+const kick=document.getElementById("bat");
 
 var chance=1;
 var score1=0;
